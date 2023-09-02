@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+header {
+  width: auto;
+  height: 50px;
+  background-color: #FF9A4B;
+}
+
+main {
+  width: 960px;
+  height: auto;
+  margin: 50px auto;
+  display: flex;
+}
+
+h3 {
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+.main-visual1 {
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  position: relative;
+  background-color: #eee;
+}
+
+.box1 {
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.step {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #FF9A4B;
+  color: #ffffff;
+}
+
+.main-visual2 {
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  position: relative;
+  background-color: #eee;
+  margin: 0 30px;
+}
+
+.box2 {
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.main-visual3 {
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  position: relative;
+  background-color: #eee;
+}
+
+.box3 {
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+footer {
+  height: 50px;
+  margin-top: auto;
+  background-color: #AAAAAA;
+
+}
+
+@media screen and (max-width:768px) {
+  header {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+    display: block;
+  }
+
+  .main-visual1 {
+    width: 90%;
+    height: 300px;
+    margin: 20px auto;
+  }
+
+  .main-visual2 {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .main-visual3 {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+
+
+}
